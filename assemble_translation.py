@@ -96,6 +96,29 @@ def main():
     print(f"Частей обработано: {len(parts)}")
     print(f"{'='*60}\n")
     
+    # Очистка промежуточных файлов
+    print("🧹 Очистка промежуточных файлов...")
+    import glob
+    import os
+    
+    cleanup_patterns = [
+        f"{args.base_name}_part*.txt",
+        f"{args.base_name}_part*_translated.json",
+        f"{args.base_name}_requests.txt",
+    ]
+    
+    deleted = 0
+    for pattern in cleanup_patterns:
+        for file in glob.glob(pattern):
+            try:
+                os.remove(file)
+                deleted += 1
+            except:
+                pass
+    
+    if deleted > 0:
+        print(f"   Удалено промежуточных файлов: {deleted}")
+    
     return 0
 
 
