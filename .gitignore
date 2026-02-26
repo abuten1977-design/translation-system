@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Временные файлы перевода
+*_part*.txt
+*_part*_translated.json
+*_requests.txt
+
+# Промежуточные версии документов
+*_ru.docx
+*_ru_structured.docx
+
+# Оригинальные документы (большие)
+*.docx:Zone.Identifier
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
