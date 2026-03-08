@@ -1,0 +1,19 @@
+# Sample Document for Translation
+
+## Introduction
+
+The quick brown fox jumps over the lazy dog. This is a sample text to demonstrate the translation quality assessment system.
+
+## Key Features
+
+Translation quality is critical for business success. Poor translations can damage brand reputation and confuse customers.
+
+Our system helps you:
+- Evaluate translation accuracy
+- Detect fluency issues
+- Identify terminology problems
+- Assess tone preservation
+
+## Conclusion
+
+Quality matters. Use automated tools to save time and improve consistency.

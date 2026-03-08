@@ -1,0 +1,29 @@
+{
+  "translation_quality": {
+    "overall_score": 94,
+    "metrics": {
+      "accuracy": 95,
+      "fluency": 98,
+      "spelling": 100,
+      "tone": 92
+    },
+    "issues_found": 2,
+    "issues": [
+      {
+        "type": "terminology",
+        "severity": "minor",
+        "location": "paragraph 2",
+        "description": "Consider using 'плавность' instead of 'беглость' for 'fluency'"
+      },
+      {
+        "type": "tone",
+        "severity": "minor",
+        "location": "conclusion",
+        "description": "Slightly more formal tone than original"
+      }
+    ],
+    "processing_time": "2.3 seconds",
+    "paragraphs_processed": 8,
+    "words_translated": 87
+  }
+}
