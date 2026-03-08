@@ -1,33 +1,95 @@
+# ========================================
+# ЛИЧНЫЕ ФАЙЛЫ (НЕ публиковать!)
+# ========================================
+*PLAN*.md
+*TODO*.md
+*ROADMAP*.md
+*PERSONAL*.md
+*MY_*.md
+*CAREER*.md
+*STRATEGY*.md
+*NOTES*.md
+*_PRIVATE*.md
+SUMMARY.md
+PROJECT_SUMMARY.md
+CHECKLIST.md
+START_HERE.md
+WELCOME.txt
+FILES_GUIDE.md
+SYSTEM_ANALYSIS.md
+TRANSLATION_STATUS.md
+COMPARISON_*.md
+ГДЕ_ФАЙЛ.md
+ФАЙЛЫ_ПЕРЕВОДА.txt
+
+# ========================================
+# ПЕРЕВОДЫ И КНИГИ (НЕ публиковать!)
+# ========================================
+geminbook/
+geminbook_ru/
+geminbook_ru_new/
+*.docx
+*.docx:Zone.Identifier
+*translate*
+*translation*
+part*.txt
+part*.json
+*_part*.txt
+*_part*_translated.json
+*_requests.txt
+*_ru.docx
+*_ru_structured.docx
+
+# ========================================
 # Python
+# ========================================
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
 venv/
+env/
+ENV/
+.venv/
 
-# Временные файлы перевода
-*_part*.txt
-*_part*_translated.json
-*_requests.txt
-
-# Промежуточные версии документов
-*_ru.docx
-*_ru_structured.docx
-
-# Оригинальные документы (большие)
-*.docx:Zone.Identifier
-
-# Логи
-*.log
-
+# ========================================
 # IDE
+# ========================================
 .vscode/
 .idea/
 *.swp
 *.swo
+.project_structure
 
+# ========================================
 # OS
+# ========================================
 .DS_Store
 Thumbs.db
+
+# ========================================
+# Secrets & Logs
+# ========================================
+.env
+*.key
+*.pem
+*.log
+config_local.py
